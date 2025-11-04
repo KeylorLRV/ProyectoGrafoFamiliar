@@ -19,24 +19,6 @@ namespace ProyectoGrafoFamiliar.Presentacion
             // Inicializar controles aquí o en InitializeComponent
         }
 
-        private void InitializeComponent()
-        {
-            this.TxtCedula = new TextBox();
-            this.AgregarPersona = new Button();
-            this.MapaControl = new GMapControl();
-
-            this.AgregarPersona.Text = "Agregar Persona";
-            this.AgregarPersona.Click += AgregarPersona_Click;
-
-            // Posicionamiento y tamaños de controles se definen aquí (usa diseñador o manualmente)
-
-            this.Controls.Add(TxtCedula);
-            this.Controls.Add(AgregarPersona);
-            this.Controls.Add(MapaControl);
-
-            this.Text = "Planificación del Grafo Familiar";
-            this.Size = new System.Drawing.Size(800, 600);
-        }
 
         private void AgregarPersona_Click(object sender, EventArgs e)
         {
