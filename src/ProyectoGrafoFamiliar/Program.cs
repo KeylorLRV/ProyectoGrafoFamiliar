@@ -31,7 +31,7 @@ static class Program
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Ejecutar formulario principal
-            Application.Run(new MainForm());
+            Application.Run(new MenuForm());
         }
         catch (Exception ex)
         {
