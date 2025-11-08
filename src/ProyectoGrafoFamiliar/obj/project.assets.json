@@ -317,11 +317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Keylor RV\\GrafoGen\\ProyectoGrafoFamiliar\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
+      "projectUniqueName": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\GrafoGen\\ProyectoGrafoFamiliar\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
       "projectName": "ProyectoGrafoFamiliar",
-      "projectPath": "C:\\Users\\Keylor RV\\GrafoGen\\ProyectoGrafoFamiliar\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
+      "projectPath": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\GrafoGen\\ProyectoGrafoFamiliar\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
       "packagesPath": "C:\\Users\\Keylor RV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Keylor RV\\GrafoGen\\ProyectoGrafoFamiliar\\src\\ProyectoGrafoFamiliar\\obj\\",
+      "outputPath": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\GrafoGen\\ProyectoGrafoFamiliar\\src\\ProyectoGrafoFamiliar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
