@@ -102,3 +102,16 @@
    en System.Windows.Forms.Button.WndProc(Message& m)
    en System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
 
+[2025-11-08 14:31:41] System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en ProyectoGrafoFamiliar.Logica.EstadisticasFamiliares.GenerarResumen() en C:\Users\Keylor RV\OneDrive\Documentos\GrafoGen\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\Logica\EstadisticasFamiliares.cs:línea 91
+   en ProyectoGrafoFamiliar.Presentacion.EstadisticasForm.MostrarEstadisticas() en C:\Users\Keylor RV\OneDrive\Documentos\GrafoGen\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\Presentación\EstadisticasForm.cs:línea 21
+   en ProyectoGrafoFamiliar.Presentacion.EstadisticasForm..ctor(EstadisticasFamiliares est) en C:\Users\Keylor RV\OneDrive\Documentos\GrafoGen\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\Presentación\EstadisticasForm.cs:línea 16
+   en ProyectoGrafoFamiliar.Presentacion.MenuForm.BtnVisualizarEstadisticas_Click(Object sender, EventArgs e) en C:\Users\Keylor RV\OneDrive\Documentos\GrafoGen\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\Presentación\MenuForm.cs:línea 44
+   en System.Windows.Forms.Control.OnClick(EventArgs e)
+   en System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   en System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   en System.Windows.Forms.Button.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+

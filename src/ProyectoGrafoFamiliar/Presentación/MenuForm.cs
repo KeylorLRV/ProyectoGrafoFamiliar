@@ -23,7 +23,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
         private void BtnAgregarPersona_Click(object sender, EventArgs e)
         {
             // Abre MainForm para agregar persona (pasa el grafo para compartir estado)
-            using (var agregarForm = new MainForm())
+            using (var agregarForm = new MainForm(grafo, calculadora))
             {
                 agregarForm.ShowDialog(); // Modal: bloquea el menú hasta cerrar
             }
