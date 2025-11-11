@@ -1,8 +1,13 @@
 using System.Collections.Generic;
+using System.Linq;
 using GMap.NET.WindowsForms;
 using GMap.NET;
+using GMap.NET.WindowsForms.Markers;
 using ProyectoGrafoFamiliar.Datos;
 using System.Windows.Forms;
+using System.Drawing;
+using System.IO;
+
 
 namespace ProyectoGrafoFamiliar.Presentacion
 {
@@ -16,12 +21,16 @@ namespace ProyectoGrafoFamiliar.Presentacion
             Mapa = mapaControl;
             Marcadores = new List<GMapMarker>();
 
-            // Configuración básica del mapa
+            // Configuración básica del mapa (igual que antes)
             Mapa.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
             GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
             Mapa.MinZoom = 0;
             Mapa.MaxZoom = 24;
             Mapa.Zoom = 2;
+
+            // Crear un overlay persistente para marcadores
+            var overlay = new GMapOverlay("MarcadoresPersonas");
+            Mapa.Overlays.Add(overlay);
         }
 
         public void CargarMapa()
@@ -32,18 +41,23 @@ namespace ProyectoGrafoFamiliar.Presentacion
 
         public void AgregarMarcador(Persona persona)
         {
-            if (persona.Coordenadas == null) return;
+            if (persona.Coordenadas == null || persona.Foto == null) return;
 
             var punto = new PointLatLng(persona.Coordenadas.Latitud, persona.Coordenadas.Longitud);
-            var marcador = new GMap.NET.WindowsForms.Markers.GMarkerGoogle(punto, GMap.NET.WindowsForms.Markers.GMarkerGoogleType.blue_dot);
-            marcador.ToolTipText = $"Cédula: {persona.Cedula}";
 
-            Mapa.Overlays.Clear();
-            var overlay = new GMapOverlay("Marcadores");
-            overlay.Markers.Add(marcador);
-            Mapa.Overlays.Add(overlay);
+            // Crear un marcador personalizado con la foto
+            var marker = new GMarkerGoogle(punto, GMarkerGoogleType.arrow);
+            marker.ToolTipText = $"{persona.Nombre} {persona.Apellidos} (Cédula: {persona.Cedula}, Edad: {persona.Edad})"; // Tooltip con info
 
-            Marcadores.Add(marcador);
+            // Agregar al overlay existente (sin borrar)
+            var overlay = Mapa.Overlays.FirstOrDefault(o => o.Id == "MarcadoresPersonas");
+            if (overlay != null)
+            {
+                overlay.Markers.Add(marker);
+            }
+
+            Marcadores.Add(marker);
+            Mapa.Refresh(); // Refrescar el mapa para mostrar el nuevo marcador
         }
 
         public void MostrarDistancia(Persona origen, Persona destino)

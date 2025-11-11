@@ -218,13 +218,35 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.btnVolver.Text = "Volver al Menú";
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
+            // Agregar después de los controles existentes
+            this.MapaControl = new GMap.NET.WindowsForms.GMapControl();
+            this.MapaControl.Bearing = 0F;
+            this.MapaControl.CanDragMap = true;
+            this.MapaControl.Dock = System.Windows.Forms.DockStyle.None; // No dock, posicionar manualmente
+            this.MapaControl.EmptyTileColor = System.Drawing.Color.FromArgb(37, 37, 38);
+            this.MapaControl.GrayScaleMode = false;
+            this.MapaControl.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
+            this.MapaControl.MarkersEnabled = true;
+            this.MapaControl.MaxZoom = 18;
+            this.MapaControl.MinZoom = 2;
+            this.MapaControl.MouseWheelZoomEnabled = true;
+            this.MapaControl.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionWithoutCenter;
+            this.MapaControl.Name = "MapaControl";
+            this.MapaControl.NegativeMode = false;
+            this.MapaControl.ShowCenter = false;
+            this.MapaControl.ShowTileGridLines = false;
+            this.MapaControl.Size = new System.Drawing.Size(400, 400); // Tamaño del mapa
+            this.MapaControl.Location = new System.Drawing.Point(420, 10); // Posición a la derecha de los campos
+            this.MapaControl.TabIndex = 17;
+            this.MapaControl.Zoom = 7D;
+            this.Controls.Add(this.MapaControl);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(37, 37, 38);
-            this.ClientSize = new System.Drawing.Size(400, 420);
+            this.ClientSize = new System.Drawing.Size(850, 420); // Aumentar ancho para incluir el mapa
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnAgregarPersona);
             this.Controls.Add(this.btnCargarFoto);
@@ -272,5 +294,6 @@ namespace ProyectoGrafoFamiliar.Presentacion
         private System.Windows.Forms.Button btnCargarFoto;
         private System.Windows.Forms.Button btnAgregarPersona;
         private System.Windows.Forms.Button btnVolver;
+        private GMap.NET.WindowsForms.GMapControl MapaControl;
     }
 }

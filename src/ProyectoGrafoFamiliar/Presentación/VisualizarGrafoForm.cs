@@ -71,7 +71,9 @@ namespace ProyectoGrafoFamiliar.Presentacion
                         ruta.Stroke = new System.Drawing.Pen(System.Drawing.Color.Red, 2);
                         overlay.Routes.Add(ruta);
                     }
+                    
                 }
+                MapaControl.Refresh(); // Asegurar que se muestren todos los marcadores y rutas
             }
             catch (Exception ex)
             {

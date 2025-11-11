@@ -7,6 +7,7 @@ using ProyectoGrafoFamiliar.Datos;
 using ProyectoGrafoFamiliar.Logica;
 
 
+
 namespace ProyectoGrafoFamiliar.Presentacion
 {
     public partial class MainForm : Form
@@ -20,6 +21,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             try
             {
                 InitializeComponent();
+                ConfigurarMapa();
                 
                 this.grafo = grafo;
                 this.calculadora = calculadora;
@@ -193,6 +195,45 @@ namespace ProyectoGrafoFamiliar.Presentacion
         {
             // Cerrar el formulario actual para volver al menú
             this.Close();
+        }
+        private void ConfigurarMapa()
+        {
+            MapaControl.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
+            MapaControl.Position = new PointLatLng(9.748917, -83.753428); // Centro en Costa Rica
+            MapaControl.MinZoom = 2;
+            MapaControl.MaxZoom = 18;
+            MapaControl.Zoom = 7;
+            MapaControl.DragButton = MouseButtons.Left;
+            MapaControl.CanDragMap = true;
+            MapaControl.MouseWheelZoomEnabled = true;
+            MapaControl.ShowCenter = false;
+            
+            GMaps.Instance.Mode = AccessMode.ServerAndCache;
+            try
+            {
+                MapaControl.Manager.Mode = AccessMode.ServerAndCache;
+                MapaControl.Position = new PointLatLng(9.748917, -83.753428);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar el mapa: " + ex.Message);
+            }
+            
+            // Agregar evento de clic para capturar coordenadas
+            MapaControl.MouseClick += MapaControl_MouseClick;
+        }
+        private void MapaControl_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                // Obtener las coordenadas del punto clickeado
+                var punto = MapaControl.FromLocalToLatLng(e.X, e.Y);
+                numLatitud.Value = (decimal)punto.Lat;
+                numLongitud.Value = (decimal)punto.Lng;
+                
+                // Opcional: Mostrar un mensaje o marcador temporal
+                MessageBox.Show($"Coordenadas seleccionadas: Lat {punto.Lat:F6}, Lng {punto.Lng:F6}");
+            }
         }
     }
 }

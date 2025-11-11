@@ -88,8 +88,8 @@ namespace ProyectoGrafoFamiliar.Logica
             var lejano = ObtenerParMasLejano();
             double promedio = CalculaDistanciaPromedio();
 
-            return $"Par más cercano: {cercano.Item1.Cedula} - {cercano.Item2.Cedula} ({Calculadora.CalcularDistanciaPersonas(cercano.Item1, cercano.Item2):F2} km)\n" +
-                   $"Par más lejano: {lejano.Item1.Cedula} - {lejano.Item2.Cedula} ({Calculadora.CalcularDistanciaPersonas(lejano.Item1, lejano.Item2):F2} km)\n" +
+            return $"Par más cercano: {cercano.Item1.Nombre} - {cercano.Item2.Nombre} ({Calculadora.CalcularDistanciaPersonas(cercano.Item1, cercano.Item2):F2} km)\n" +
+                   $"Par más lejano: {lejano.Item1.Nombre} - {lejano.Item2.Nombre} ({Calculadora.CalcularDistanciaPersonas(lejano.Item1, lejano.Item2):F2} km)\n" +
                    $"Distancia promedio: {promedio:F2} km";
         }
     }
