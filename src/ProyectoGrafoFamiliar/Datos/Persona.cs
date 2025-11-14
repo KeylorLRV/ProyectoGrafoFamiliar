@@ -6,6 +6,10 @@ namespace ProyectoGrafoFamiliar.Datos
     {
         public string Nombre { get; set; }
         public string Apellidos { get; set; }
+        public Persona Padre { get; set; }
+        public Persona Madre { get; set; }
+        public List<Persona> Hijos { get; set; } = new List<Persona>();
+        public Persona Conyuge { get; set; }
         public byte[] Foto { get; set; }
         public string Cedula { get; set; }
         public Coordenada Coordenadas { get; set; }
