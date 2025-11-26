@@ -1,5 +1,5 @@
 # ProyectoGrafoFamiliar
-Este proyecto implementa una aplicación de escritorio en C# que permite crear y visualizar árboles genealógicos con información geográfica de residencia de cada miembro familiar.
+Este proyecto implementa una aplicación de escritorio en C# que permite crear y visualizar grafo genealógicos con información geográfica de residencia de cada miembro familiar.
 ### Información Técnica
 - **Lenguaje**: C# (.NET Framework)
 - **Paradigma**: Programación Orientada a Objetos
