@@ -170,3 +170,102 @@ Validaciones automáticas:
 - No puede ser la misma persona
 - No puede ser un pariente directo (padre, hijo)
 - La relación es bidireccional automática
+
+**Paso 6:** Guardar la Persona
+
+Revise todos los datos ingresados
+
+Click en "Agregar Persona"
+
+El sistema validará:
+- Todos los campos obligatorios están llenos
+- Las coordenadas son válidas
+- La fotografía fue cargada
+- Las relaciones son coherentes
+
+**Mensajes de Validación**
+
+Si hay errores:
+- Por favor, ingrese el nombre.
+- Por favor, cargue una foto.
+- Las coordenadas ingresadas no son válidas.
+- El padre debe ser mayor que el hijo.
+
+Si todo es correcto:
+
+Persona Juan Pérez González agregada con relaciones.
+
+**Nota**: El formulario se limpiará automáticamente para agregar otra persona
+
+## Visualizar el Grafo
+**Abrir el Mapa**  
+Desde el menú principal, click en **"Visualizar Grafo en Mapa".**
+
+![Segundo](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/8e2ba59960da5731f32525ee3ad41c730ad528e1/docs/image/ImageSegundoOpcion.png)
+
+![Mapa](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/5cb3f839d77e46f0b8243799e978af47e60adcf6/docs/image/Mapa.png)
+
+**Elementos del Mapa**   
+
+**1.** Marcadores de Personas
+
+Cada persona aparece como un marcador en su ubicación geográfica
+ 
+Interacción:
+
+Hover (pasar el mouse): Muestra información básica
+  
+**2.** Líneas de Conexión
+
+Las relaciones familiares se visualizan como líneas rojas entre personas:
+- Línea continua = Relación registrada en el grafo
+- Color rojo = Conexión familiar
+  
+**3.** Controles del Mapa
+
+Navegación:
+- Arrastrar: Click izquierdo + mover mouse
+- Zoom In: Rueda del mouse hacia arriba
+- Zoom Out: Rueda del mouse hacia abajo
+- Centrar: Doble click en un punto
+
+Niveles de Zoom:
+- Nivel 2: Vista mundial completa
+- Nivel 7: Vista de país (por defecto)
+- Nivel 18: Vista de calle (máximo detalle)
+
+## Ver Estadísticas
+Abrir Estadísticas
+
+Desde el menú principal, click en "Visualizar Estadísticas Familiares".
+
+![Tercer](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/5cb3f839d77e46f0b8243799e978af47e60adcf6/docs/image/TercerOpcion.png)
+
+**Secciones de Estadísticas**
+
+**1.** Resumen General
+En la parte superior, verá un resumen textual:
+
+**2.** Promedio de Distancias
+Explicación:
+- Calcula la distancia entre todos los pares posibles
+- Suma todas las distancias
+- Divide entre el número de pares
+- Resultado en kilómetros con 2 decimales
+
+**3.** Par Más Cercano
+
+![Cerca](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/5cb3f839d77e46f0b8243799e978af47e60adcf6/docs/image/MasCerca.png)
+
+Muestra las dos personas que viven más cerca una de la otra:
+Información de cada tarjeta:
+
+- Fotografía de la persona
+- Nombre completo
+- Relaciones familiares resumidas
+- Distancia exacta al otro miembro del par
+
+**4.** Par Más Lejano
+Muestra las dos personas que viven más lejos una de la otra:
+
+![Lejo](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/5cb3f839d77e46f0b8243799e978af47e60adcf6/docs/image/MasLejo.png)
