@@ -105,4 +105,4 @@ Esta separación promueve:
 
 **4. EstadisticasFamiliares → GrafoFamiliar + CalculadoraDistancia** (Dependencia)
 
-- Usa ambas clases para generar análisis
+- Usa ambas clases para generar análisis 
