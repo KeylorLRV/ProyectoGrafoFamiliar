@@ -18,6 +18,6 @@ Curso: CE1103 - Algoritmos y Estructuras de Datos I
 Semestre II-2025  
 Escuela de Ingeniería en Computadores  
 ### Documentacion
-Si desea obtener más información sobre este proyecto, lea nuestra documentación.
+Si desea obtener más información sobre este proyecto, lea nuestra [documentación](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/0641d724a7cf7c408ae329a32979ff943eb6e421/docs/documentacion.md).
 ### Manual de Usuario
 Cualquier duda, consulte el Manual de Usuario para instrucciones detalladas
