@@ -38,3 +38,46 @@ Esta separación promueve:
 - Reutilización de componentes
 - Facilidad para pruebas unitarias
 - Escalabilidad futura
+
+### Funcionalidades Principales
+#### 1. Gestión de Miembros
+
+- Registro de información personal completa
+- Carga de fotografías
+- Asignación de coordenadas geográficas mediante mapa interactivo
+- Cálculo automático de edad
+
+#### 2. Relaciones Familiares
+
+- Padre y madre biológicos
+- Cónyuges con historial
+- Hijos múltiples
+- Hermanos (biológicos y agregados manualmente)
+
+#### 3. Visualización Geográfica
+
+- Mapa mundial interactivo
+- Marcadores con información de cada persona
+- Conexiones visuales entre familiares relacionados
+
+#### 4. Análisis Estadístico
+
+- Par de familiares más cercano geográficamente
+- Par de familiares más lejano
+- Distancia promedio entre todos los miembros
+- Presentación visual de tarjetas con información
+
+### Alcance del Proyecto
+#### Incluido en esta versión
+
+- Creación y gestión de un árbol genealógico único
+- Información completa de cada miembro (foto, cédula, coordenadas, fechas)
+- Grafo implementado desde cero
+- Visualización en mapa mundial
+- Estadísticas geográficas
+
+#### Limitaciones Actuales
+
+- Solo soporta un árbol genealógico a la vez
+- No incluye persistencia de datos (guardado/carga)
+- Requiere conexión a internet para cargar mapas
