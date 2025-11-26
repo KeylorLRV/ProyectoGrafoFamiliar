@@ -20,4 +20,4 @@ Escuela de Ingeniería en Computadores
 ### Documentacion
 Si desea obtener más información sobre este proyecto, lea nuestra [documentación](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/0641d724a7cf7c408ae329a32979ff943eb6e421/docs/documentacion.md).
 ### Manual de Usuario
-Cualquier duda, consulte el Manual de Usuario para instrucciones detalladas
+Cualquier duda, consulte el [Manual de Usuario](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/17a485aeaf94dd137584f0adb54aab761bb0b00f/docs/ManualUsuario.md) para instrucciones detalladas
