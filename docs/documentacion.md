@@ -83,5 +83,26 @@ Esta separación promueve:
 - Requiere conexión a internet para cargar mapas
 
 # Diagrama
+### Diagrama de clases
 ![Diagrama de clases](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/e261491c38047506b2b3851bc0b286f197f564ed/docs/image/Grafo_Genealogico.drawio.png)  
-[Haz click para descargar archivo .drawio]
+[Haz click para descargar archivo .drawio](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/15e171c1297ee777f6fc7b2a670da2fbf189eab9/docs/Grafo_Genealogico.drawio)
+#### Relaciones entre Clases
+
+**1. Persona ↔ Coordenada** (Composición)
+
+- Cada persona tiene exactamente una coordenada
+- La coordenada no existe sin la persona
+
+**2. Persona ↔ Persona** (Asociación)
+
+- Relaciones familiares múltiples (padre, madre, cónyuge, hijos, hermanos)
+- Bidireccionales y auto-referenciadas
+
+**3. GrafoFamiliar → Persona** (Agregación)
+ 
+- El grafo contiene múltiples personas
+- Las personas pueden existir independientemente
+
+**4. EstadisticasFamiliares → GrafoFamiliar + CalculadoraDistancia** (Dependencia)
+
+- Usa ambas clases para generar análisis
