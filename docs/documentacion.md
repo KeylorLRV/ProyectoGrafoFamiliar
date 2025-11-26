@@ -1,6 +1,6 @@
 # Introducción
 ### Propósito del Proyecto
-El Sistema de Árbol Genealógico es una aplicación de escritorio diseñada para gestionar y visualizar información familiar de manera integral. Este proyecto combina estructuras de datos avanzadas (grafos y árboles) con visualización geográfica, permitiendo no solo registrar el linaje familiar, sino también analizar la distribución geográfica de los miembros de la familia.
+El Sistema de Grafo Genealógico es una aplicación de escritorio diseñada para gestionar y visualizar información familiar de manera integral. Este proyecto combina estructuras de datos avanzadas (grafos y árboles) con visualización geográfica, permitiendo no solo registrar el linaje familiar, sino también analizar la distribución geográfica de los miembros de la familia.
 ### Motivación
 En la era digital, mantener un registro organizado de la historia familiar es fundamental. Este proyecto surge de la necesidad de:
 - Preservar la memoria familiar: Documentar relaciones y fotografías.
@@ -81,3 +81,6 @@ Esta separación promueve:
 - Solo soporta un árbol genealógico a la vez
 - No incluye persistencia de datos (guardado/carga)
 - Requiere conexión a internet para cargar mapas
+
+# Diagrama
+!
