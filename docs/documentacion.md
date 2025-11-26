@@ -106,3 +106,7 @@ Esta separación promueve:
 **4. EstadisticasFamiliares → GrafoFamiliar + CalculadoraDistancia** (Dependencia)
 
 - Usa ambas clases para generar análisis 
+
+### Diagrama de arquitectura
+![Diagrama de arquitectura](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/12ab56dcee809acf549b4df7c3e9ff5e7dcb244a/docs/image/DiagramaDeArquitectura.drawio.png)  
+[Haz click para descargar archivo .drawio]()
