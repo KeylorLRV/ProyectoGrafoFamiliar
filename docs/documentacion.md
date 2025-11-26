@@ -83,4 +83,5 @@ Esta separación promueve:
 - Requiere conexión a internet para cargar mapas
 
 # Diagrama
-!
+![Diagrama de clases](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/e261491c38047506b2b3851bc0b286f197f564ed/docs/image/Grafo_Genealogico.drawio.png)  
+[Haz click para descargar archivo .drawio]
