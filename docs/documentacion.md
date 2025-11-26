@@ -109,4 +109,34 @@ Esta separación promueve:
 
 ### Diagrama de arquitectura
 ![Diagrama de arquitectura](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/12ab56dcee809acf549b4df7c3e9ff5e7dcb244a/docs/image/DiagramaDeArquitectura.drawio.png)  
-[Haz click para descargar archivo .drawio]()
+[Haz click para descargar archivo .drawio](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/1dca91d1fba89019d8d96425e430c334323b5612/docs/DiagramaDeArquitectura.drawio)  
+#### Descripción de Capas
+**1. Capa de Presentación**  
+**Responsabilidad:** Interacción con el usuario y visualización de datos.
+- **MenuForm:** Menú principal con navegación a las funcionalidades
+- **MainForm:** Formulario para agregar nuevos miembros familiares
+- **VisualizarGrafoForm:** Visualización del árbol en mapa interactivo
+- **EstadisticasForm:** Presentación de análisis estadísticos
+- **VisualizadorMapa:** Componente auxiliar para manejo de mapas
+
+**2. Capa de Lógica**  
+**Responsabilidad:** Algoritmos, estructuras de datos y reglas de negocio.  
+
+**GrafoFamiliar:** Implementación del grafo dirigido
+ - Gestión de nodos y adyacencias
+ - Algoritmos de recorrido (DFS)
+ - Verificación de conectividad
+   
+**CalculadoraDistancia:** Cálculos geográficos
+ - Fórmula de Haversine
+ - Distancias entre coordenadas
+   
+**EstadisticasFamiliares:** Análisis de datos
+ - Pares extremos (más cercano/lejano)
+ - Promedios y agregaciones
+
+**3. Capa de Datos**
+**Responsabilidad:** Modelos de dominio y validaciones.
+
+- **Persona:** Entidad principal con información biográfica y relaciones
+- **Coordenada:** Modelo geográfico con validaciones
