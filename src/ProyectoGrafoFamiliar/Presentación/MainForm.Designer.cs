@@ -21,6 +21,8 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblApellidos = new System.Windows.Forms.Label();
             this.txtApellidos = new System.Windows.Forms.TextBox();
+            this.lblGenero = new System.Windows.Forms.Label();
+            this.cmbGenero = new System.Windows.Forms.ComboBox();
             this.lblCedula = new System.Windows.Forms.Label();
             this.txtCedula = new System.Windows.Forms.TextBox();
             this.lblLatitud = new System.Windows.Forms.Label();
@@ -173,6 +175,32 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(200, 20);
             this.txtApellidos.TabIndex = 3;
+            //
+            // lblGenero
+            // 
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.ForeColor = System.Drawing.Color.FromArgb(204, 204, 204);
+            this.lblGenero.Location = new System.Drawing.Point(30, 210);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Size = new System.Drawing.Size(45, 13);
+            this.lblGenero.TabIndex = 27;
+            this.lblGenero.Text = "Género:";
+
+            // 
+            // cmbGenero
+            // 
+            this.cmbGenero.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
+            this.cmbGenero.ForeColor = System.Drawing.Color.FromArgb(204, 204, 204);
+            this.cmbGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbGenero.Location = new System.Drawing.Point(150, 207);
+            this.cmbGenero.Name = "cmbGenero";
+            this.cmbGenero.Size = new System.Drawing.Size(200, 21);
+            this.cmbGenero.TabIndex = 28;
+            this.cmbGenero.Items.AddRange(new object[] {
+                "Masculino",
+                "Femenino",
+                "Otro"
+            });
             // 
             // lblCedula
             // 
@@ -241,7 +269,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             // 
             this.lblFechaNacimiento.AutoSize = true;
             this.lblFechaNacimiento.ForeColor = System.Drawing.Color.FromArgb(204, 204, 204);
-            this.lblFechaNacimiento.Location = new System.Drawing.Point(30, 180);
+            this.lblFechaNacimiento.Location = new System.Drawing.Point(30, 240);
             this.lblFechaNacimiento.Name = "lblFechaNacimiento";
             this.lblFechaNacimiento.Size = new System.Drawing.Size(96, 13);
             this.lblFechaNacimiento.TabIndex = 10;
@@ -251,7 +279,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             // 
             this.dtpFechaNacimiento.CalendarMonthBackground = System.Drawing.Color.FromArgb(30, 30, 30);
             this.dtpFechaNacimiento.CalendarForeColor = System.Drawing.Color.FromArgb(204, 204, 204);
-            this.dtpFechaNacimiento.Location = new System.Drawing.Point(150, 177);
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(150, 237);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             this.dtpFechaNacimiento.Size = new System.Drawing.Size(200, 20);
             this.dtpFechaNacimiento.TabIndex = 11;
@@ -260,7 +288,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             // 
             this.lblFoto.AutoSize = true;
             this.lblFoto.ForeColor = System.Drawing.Color.FromArgb(204, 204, 204);
-            this.lblFoto.Location = new System.Drawing.Point(30, 210);
+            this.lblFoto.Location = new System.Drawing.Point(30, 270);
             this.lblFoto.Name = "lblFoto";
             this.lblFoto.Size = new System.Drawing.Size(31, 13);
             this.lblFoto.TabIndex = 12;
@@ -270,7 +298,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             // 
             this.picFoto.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
             this.picFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picFoto.Location = new System.Drawing.Point(150, 210);
+            this.picFoto.Location = new System.Drawing.Point(150, 270);
             this.picFoto.Name = "picFoto";
             this.picFoto.Size = new System.Drawing.Size(120, 120);
             this.picFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -282,7 +310,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.btnCargarFoto.BackColor = System.Drawing.Color.FromArgb(51, 51, 51);
             this.btnCargarFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCargarFoto.ForeColor = System.Drawing.Color.FromArgb(204, 204, 204);
-            this.btnCargarFoto.Location = new System.Drawing.Point(280, 210);
+            this.btnCargarFoto.Location = new System.Drawing.Point(280, 270);
             this.btnCargarFoto.Name = "btnCargarFoto";
             this.btnCargarFoto.Size = new System.Drawing.Size(70, 30);
             this.btnCargarFoto.TabIndex = 14;
@@ -295,7 +323,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.btnAgregarPersona.BackColor = System.Drawing.Color.FromArgb(0, 122, 204);
             this.btnAgregarPersona.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarPersona.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarPersona.Location = new System.Drawing.Point(140, 400);
+            this.btnAgregarPersona.Location = new System.Drawing.Point(140, 460);
             this.btnAgregarPersona.Name = "btnAgregarPersona";
             this.btnAgregarPersona.Size = new System.Drawing.Size(140, 35);
             this.btnAgregarPersona.TabIndex = 15;
@@ -309,7 +337,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.btnVolver.BackColor = System.Drawing.Color.FromArgb(51, 51, 51);
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(204, 204, 204);
-            this.btnVolver.Location = new System.Drawing.Point(300, 400);
+            this.btnVolver.Location = new System.Drawing.Point(300, 460);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(140, 35);
             this.btnVolver.TabIndex = 16;
@@ -345,7 +373,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(37, 37, 38);
-            this.ClientSize = new System.Drawing.Size(800, 450); // Aumentar ancho para incluir el mapa
+            this.ClientSize = new System.Drawing.Size(800, 510); // Aumentar ancho para incluir el mapa
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnAgregarPersona);
             this.Controls.Add(this.btnCargarFoto);
@@ -373,6 +401,8 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.Controls.Add(this.lstHijos);
             this.Controls.Add(this.lblHermanos);
             this.Controls.Add(this.lstHermanos);
+            this.Controls.Add(this.lblGenero);
+            this.Controls.Add(this.cmbGenero);
             this.ForeColor = System.Drawing.Color.FromArgb(204, 204, 204);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -390,6 +420,8 @@ namespace ProyectoGrafoFamiliar.Presentacion
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblApellidos;
         private System.Windows.Forms.TextBox txtApellidos;
+        private System.Windows.Forms.Label lblGenero;
+        private System.Windows.Forms.ComboBox cmbGenero;
         private System.Windows.Forms.Label lblCedula;
         private System.Windows.Forms.TextBox txtCedula;
         private System.Windows.Forms.Label lblLatitud;

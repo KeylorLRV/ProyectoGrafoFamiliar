@@ -42,7 +42,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             {
                 Panel panelPersona = new Panel
                 {
-                    Size = new Size(200, 280),
+                    Size = new Size(200, 310),
                     BorderStyle = BorderStyle.FixedSingle,
                     Margin = new Padding(10),
                 };
@@ -81,12 +81,22 @@ namespace ProyectoGrafoFamiliar.Presentacion
                     Font = new Font("Arial", 10, FontStyle.Bold)
                 };
 
+                // Label para el genero
+                Label lblGenero = new Label
+                {
+                    Text = $"Género: {persona.ObtenerGeneroTexto()}",
+                    Location = new Point(10, 195),
+                    Size = new Size(180, 15),
+                    TextAlign = ContentAlignment.MiddleCenter,
+                    Font = new Font("Arial", 8, FontStyle.Italic),
+                    
+                };
                 // Label para las relaciones
                 Label lblRelaciones = new Label
                 {
                     Text = persona.ObtenerDescripcionRelaciones(),
-                    Location = new Point(10, 200),
-                    Size = new Size(180, 40),
+                    Location = new Point(10, 215),
+                    Size = new Size(180, 50),
                     TextAlign = ContentAlignment.TopCenter,
                     Font = new Font("Arial", 8)
                 };
@@ -96,8 +106,8 @@ namespace ProyectoGrafoFamiliar.Presentacion
                 Label lblDistancia = new Label
                 {
                     Text = $"Distancia a {otraPersona.NombreCompleto}: {distancia:F2} km",
-                    Location = new Point(10, 250),
-                    Size = new Size(180, 20),
+                    Location = new Point(10, 275),
+                    Size = new Size(180, 25),
                     TextAlign = ContentAlignment.MiddleCenter,
                     Font = new Font("Arial", 8, FontStyle.Italic)
                 };
@@ -105,6 +115,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
                 // Agregar controles al panel
                 panelPersona.Controls.Add(picFoto);
                 panelPersona.Controls.Add(lblNombre);
+                panelPersona.Controls.Add(lblGenero);
                 panelPersona.Controls.Add(lblRelaciones);
                 panelPersona.Controls.Add(lblDistancia);
 
@@ -115,7 +126,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             {
                 var panelSeccion = new Panel
                 {
-                    Size = new Size(flowLayoutPanelPersonas.Width - 40, 320),
+                    Size = new Size(flowLayoutPanelPersonas.Width - 40, 350),
                     Margin = new Padding(10),
                 };
                 Label lblTitulo = new Label

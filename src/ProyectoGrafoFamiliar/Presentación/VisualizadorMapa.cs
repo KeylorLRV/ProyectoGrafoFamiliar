@@ -67,5 +67,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             MessageBox.Show($"Distancia entre {origen.Cedula} y {destino.Cedula}: " +
                 $"{new Logica.CalculadoraDistancia().CalcularDistanciaPersonas(origen, destino):F2} km");
         }
+
+
     }
 }

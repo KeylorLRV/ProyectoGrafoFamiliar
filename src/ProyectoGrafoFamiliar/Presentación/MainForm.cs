@@ -66,7 +66,10 @@ namespace ProyectoGrafoFamiliar.Presentacion
             
             // Establecer fecha de nacimiento por defecto (hace 30 años)
             dtpFechaNacimiento.Value = DateTime.Now.AddYears(-30);
-            
+
+            // Establecer valor por defecto para género
+            cmbGenero.SelectedIndex = 2; // "Otro" por defecto
+
             fotoBytes = null;
             cmbPadre.Items.Clear();
             cmbMadre.Items.Clear();
@@ -156,6 +159,13 @@ namespace ProyectoGrafoFamiliar.Presentacion
                     return;
                 }
 
+                if (cmbGenero.SelectedIndex == -1)
+                {
+                    MessageBox.Show("Por favor, seleccione el género.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    cmbGenero.Focus();
+                    return;
+                }
+
                 // Crear coordenada con los valores ingresados
                 var coord = new Coordenada() 
                 { 
@@ -178,8 +188,9 @@ namespace ProyectoGrafoFamiliar.Presentacion
                     Cedula = txtCedula.Text.Trim(),
                     Coordenadas = coord,
                     FechaNac = dtpFechaNacimiento.Value,
-                    Foto = fotoBytes
-                };
+                    Foto = fotoBytes,
+                    Sexo = (Persona.Genero)cmbGenero.SelectedIndex
+                }; 
 
                 // Validar datos de la persona
                 if (!persona.ValidarDatos())
@@ -263,6 +274,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             txtCedula.Clear();
             picFoto.Image = null;
             fotoBytes = null;
+            cmbGenero.SelectedIndex = 2;
             // Limpiar selecciones de relaciones
             cmbPadre.SelectedIndex = -1;
             cmbMadre.SelectedIndex = -1;

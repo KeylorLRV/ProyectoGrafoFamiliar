@@ -39,7 +39,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             this.flowLayoutPanelPersonas.FlowDirection = System.Windows.Forms.FlowDirection.TopDown; // Cambiado para apilar verticalmente las secciones
             this.flowLayoutPanelPersonas.Location = new System.Drawing.Point(12, 120);
             this.flowLayoutPanelPersonas.Name = "flowLayoutPanelPersonas";
-            this.flowLayoutPanelPersonas.Size = new System.Drawing.Size(790, 400); // Aumentar ancho para mayor espacio
+            this.flowLayoutPanelPersonas.Size = new System.Drawing.Size(790, 420); // Aumentar ancho para mayor espacio
             this.flowLayoutPanelPersonas.TabIndex = 2;
             this.flowLayoutPanelPersonas.WrapContents = false; // No envolver para mantener secciones apiladas
             this.flowLayoutPanelPersonas.Padding = new System.Windows.Forms.Padding(10);
@@ -48,7 +48,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(350, 530); // Posición ajustada según tamaño form
+            this.btnCerrar.Location = new System.Drawing.Point(350, 550); // Posición ajustada según tamaño form
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(100, 30);
             this.btnCerrar.TabIndex = 1;
@@ -61,7 +61,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(820, 580); // Mayor altura y ancho para acomodar tarjetas
+            this.ClientSize = new System.Drawing.Size(820, 600); // Mayor altura y ancho para acomodar tarjetas
             this.Controls.Add(this.flowLayoutPanelPersonas);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.lblResumen);

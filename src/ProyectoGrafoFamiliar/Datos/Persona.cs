@@ -299,7 +299,8 @@ namespace ProyectoGrafoFamiliar.Datos
         public string ObtenerDescripcionRelaciones()
         {
             var relaciones = new List<string>();
-        
+            
+
             if (Padre != null)
                 relaciones.Add($"Padre: {Padre.NombreCompleto}");
         
@@ -320,6 +321,20 @@ namespace ProyectoGrafoFamiliar.Datos
                 ? string.Join(" | ", relaciones)
                 : "Sin relaciones familiares registradas";
         }
-        
+
+        public string ObtenerGeneroTexto()
+        {
+            switch (Sexo)
+            {
+                case Genero.Masculino:
+                    return "Masculino";
+                case Genero.Femenino:
+                    return "Femenino";
+                case Genero.Otro:
+                    return "Otro";
+                default:
+                    return "No especificado";
+            }
+        }
     }
 }

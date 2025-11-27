@@ -1,9 +1,10 @@
 // VisualizarGrafoForm.cs
+using GMap.NET;
+using GMap.NET.WindowsForms;
+using ProyectoGrafoFamiliar.Datos;
+using ProyectoGrafoFamiliar.Logica;
 using System;
 using System.Windows.Forms;
-using ProyectoGrafoFamiliar.Logica;
-using GMap.NET.WindowsForms;
-using GMap.NET;
 
 namespace ProyectoGrafoFamiliar.Presentacion
 {
@@ -84,5 +85,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
         {
             this.Close();
         }
+
+        
     }
 }

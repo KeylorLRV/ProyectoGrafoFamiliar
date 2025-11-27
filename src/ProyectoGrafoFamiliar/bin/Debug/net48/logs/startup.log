@@ -1,0 +1,4 @@
+[2025-11-26 01:23:38] System.InvalidOperationException: El hijo debe ser menor que el padre/madre
+   在 ProyectoGrafoFamiliar.Datos.Persona.AgregarHijo(Persona hijo) 位置 D:\Algoritmo\Proyecto 2 Grafo familia\ProyectoGrafoFamiliar-fase3_funcionalidad_relaciones\src\ProyectoGrafoFamiliar\Datos\Persona.cs:行号 206
+   在 ProyectoGrafoFamiliar.Presentacion.MainForm.AgregarPersona_Click(Object sender, EventArgs e) 位置 D:\Algoritmo\Proyecto 2 Grafo familia\ProyectoGrafoFamiliar-fase3_funcionalidad_relaciones\src\ProyectoGrafoFamiliar\Presentación\MainForm.cs:行号 221
+
