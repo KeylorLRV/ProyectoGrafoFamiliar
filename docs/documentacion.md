@@ -84,7 +84,7 @@ Esta separación promueve:
 
 # Diagrama
 ### Diagrama de clases
-![Diagrama de clases](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/e261491c38047506b2b3851bc0b286f197f564ed/docs/image/Grafo_Genealogico.drawio.png)  
+![Diagrama de clases](docs/image/Grafo_Genealogico.drawio2.png)  
 [Haz click para descargar archivo .drawio](https://github.com/KeylorLRV/ProyectoGrafoFamiliar/blob/15e171c1297ee777f6fc7b2a670da2fbf189eab9/docs/Grafo_Genealogico.drawio)
 #### Relaciones entre Clases
 
