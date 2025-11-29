@@ -26,7 +26,7 @@ namespace ProyectoGrafoFamiliar.Presentacion
             // 
             this.LblTitulo.AutoSize = true;
             this.LblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTitulo.Location = new System.Drawing.Point(100, 20);
+            this.LblTitulo.Location = new System.Drawing.Point(60, 20);
             this.LblTitulo.Name = "LblTitulo";
             this.LblTitulo.Size = new System.Drawing.Size(250, 24);
             this.LblTitulo.TabIndex = 0;

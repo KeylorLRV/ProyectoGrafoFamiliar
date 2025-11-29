@@ -17,3 +17,42 @@ D:\Algoritmo\Proyecto 2 Grafo familia\ProyectoGrafoFamiliar-fase3_funcionalidad_
 D:\Algoritmo\Proyecto 2 Grafo familia\ProyectoGrafoFamiliar-fase3_funcionalidad_relaciones\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.exe
 D:\Algoritmo\Proyecto 2 Grafo familia\ProyectoGrafoFamiliar-fase3_funcionalidad_relaciones\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.pdb
 D:\Algoritmo\Proyecto 2 Grafo familia\ProyectoGrafoFamiliar-fase3_funcionalidad_relaciones\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.exe.config
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\ProyectoGrafoFamiliar.exe.config
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\ProyectoGrafoFamiliar.exe
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\ProyectoGrafoFamiliar.pdb
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\EntityFramework.SqlServer.dll
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\EntityFramework.dll
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\GMap.NET.Core.dll
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\GMap.NET.WindowsForms.dll
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\System.Data.SQLite.dll
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\System.Data.SQLite.EF6.dll
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\bin\Debug\net48\System.Data.SQLite.Linq.dll
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.csproj.AssemblyReference.cache
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.exe.config
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.AssemblyInfoInputs.cache
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.AssemblyInfo.cs
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.csproj.CoreCompileInputs.cache
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.sourcelink.json
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\Proyecto.049D05C6.Up2Date
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.exe
+C:\Users\Keylor RV\GRAFOFAM\ProyectoGrafoFamiliar\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.pdb
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.csproj.AssemblyReference.cache
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.exe.config
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.AssemblyInfoInputs.cache
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.AssemblyInfo.cs
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.csproj.CoreCompileInputs.cache
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.exe
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\ProyectoGrafoFamiliar.pdb
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\ProyectoGrafoFamiliar.exe.config
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\ProyectoGrafoFamiliar.exe
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\ProyectoGrafoFamiliar.pdb
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\EntityFramework.SqlServer.dll
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\EntityFramework.dll
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\GMap.NET.Core.dll
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\GMap.NET.WindowsForms.dll
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\System.Data.SQLite.dll
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\System.Data.SQLite.EF6.dll
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\bin\Debug\net48\System.Data.SQLite.Linq.dll
+C:\Users\Keylor RV\OneDrive\Documentos\POBADOR DO GRAFO\src\ProyectoGrafoFamiliar\obj\Debug\net48\Proyecto.049D05C6.Up2Date

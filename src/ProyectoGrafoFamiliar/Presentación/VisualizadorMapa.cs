@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using GMap.NET.WindowsForms;
@@ -11,6 +12,26 @@ using System.IO;
 
 namespace ProyectoGrafoFamiliar.Presentacion
 {
+    public class FotoMarker : GMapMarker
+    {
+        private Bitmap _foto;
+        public FotoMarker(PointLatLng pos, Bitmap foto) : base(pos)
+        {
+            _foto = foto;
+            Size = new Size(30, 30); // Tamaño fijo para el marcador (ajusta según necesidad)
+            Offset = new Point(-Size.Width / 2, -Size.Height / 2); // Centrar el marcador
+        }
+        public override void OnRender(Graphics g)
+        {
+            if (_foto != null)
+            {
+                // Dibujar la foto escalada al tamaño del marcador
+                g.DrawImage(_foto, LocalPosition.X, LocalPosition.Y, Size.Width, Size.Height);
+                // Opcional: Agregar un borde
+                g.DrawRectangle(Pens.Black, LocalPosition.X, LocalPosition.Y, Size.Width, Size.Height);
+            }
+        }
+    }
     public class VisualizadorMapa
     {
         public GMapControl Mapa { get; private set; }
@@ -45,19 +66,32 @@ namespace ProyectoGrafoFamiliar.Presentacion
 
             var punto = new PointLatLng(persona.Coordenadas.Latitud, persona.Coordenadas.Longitud);
 
-            // Crear un marcador personalizado con la foto
-            var marker = new GMarkerGoogle(punto, GMarkerGoogleType.arrow);
-            marker.ToolTipText = $"{persona.Nombre} {persona.Apellidos} (Cédula: {persona.Cedula}, Edad: {persona.Edad})"; // Tooltip con info
-
-            // Agregar al overlay existente (sin borrar)
+            Bitmap fotoBitmap = null;
+            try
+            {
+                using (var ms = new MemoryStream(persona.Foto))
+                {
+                    fotoBitmap = new Bitmap(ms);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Manejar error de carga de imagen (ej. log o mensaje)
+                Console.WriteLine($"Error cargando foto de {persona.NombreCompleto}: {ex.Message}");
+                return;
+            }
+            // Crear marcador personalizado con la foto
+            var marker = new FotoMarker(punto, fotoBitmap);
+            marker.ToolTipText = $"{persona.Nombre} {persona.Apellidos} (Cédula: {persona.Cedula}, Edad: {persona.Edad})";
+            marker.Tag = persona;
+            // Agregar al overlay
             var overlay = Mapa.Overlays.FirstOrDefault(o => o.Id == "MarcadoresPersonas");
             if (overlay != null)
             {
                 overlay.Markers.Add(marker);
             }
-
             Marcadores.Add(marker);
-            Mapa.Refresh(); // Refrescar el mapa para mostrar el nuevo marcador
+            Mapa.Refresh();
         }
 
         public void MostrarDistancia(Persona origen, Persona destino)

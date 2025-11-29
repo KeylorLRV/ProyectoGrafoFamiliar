@@ -311,23 +311,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos Wu\\.nuget\\packages\\": {},
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Algoritmo\\Proyecto 2 Grafo familia\\ProyectoGrafoFamiliar-fase3_funcionalidad_relaciones\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
+      "projectUniqueName": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\POBADOR DO GRAFO\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
       "projectName": "ProyectoGrafoFamiliar",
-      "projectPath": "D:\\Algoritmo\\Proyecto 2 Grafo familia\\ProyectoGrafoFamiliar-fase3_funcionalidad_relaciones\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
-      "packagesPath": "C:\\Users\\Carlos Wu\\.nuget\\packages\\",
-      "outputPath": "D:\\Algoritmo\\Proyecto 2 Grafo familia\\ProyectoGrafoFamiliar-fase3_funcionalidad_relaciones\\src\\ProyectoGrafoFamiliar\\obj\\",
+      "projectPath": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\POBADOR DO GRAFO\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
+      "packagesPath": "C:\\Users\\Keylor RV\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\POBADOR DO GRAFO\\src\\ProyectoGrafoFamiliar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Carlos Wu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Keylor RV\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -369,7 +369,7 @@
             "version": "[1.0.98, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

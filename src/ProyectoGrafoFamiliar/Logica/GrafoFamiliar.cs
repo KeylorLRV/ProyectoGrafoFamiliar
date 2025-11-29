@@ -25,6 +25,8 @@ namespace ProyectoGrafoFamiliar.Logica
                 if (!Adyacencias[origen].Contains(destino))
                     Adyacencias[origen].Add(destino);
                 // Si se desea que la relación sea bidireccional, agregar la siguiente línea
+                if (!Adyacencias[destino].Contains(origen))
+                    Adyacencias[destino].Add(origen);
                 // Adyacencias[destino].Add(origen);
             }
         }
