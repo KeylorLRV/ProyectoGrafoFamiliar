@@ -1,0 +1,381 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "EntityFramework/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
+        }
+      },
+      "GMap.NET.WindowsForms/1.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/GMap.NET.Core.dll": {},
+          "lib/net40/GMap.NET.WindowsForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/GMap.NET.Core.dll": {},
+          "lib/net40/GMap.NET.WindowsForms.dll": {}
+        }
+      },
+      "System.Data.SQLite/1.0.98": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.SQLite.Core": "1.0.98",
+          "System.Data.SQLite.EF6": "1.0.98",
+          "System.Data.SQLite.Linq": "1.0.98"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.98": {
+        "type": "package",
+        "compile": {
+          "lib/net451/System.Data.SQLite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net451/System.Data.SQLite.Core.targets": {}
+        }
+      },
+      "System.Data.SQLite.EF6/1.0.98": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.0.0"
+        },
+        "compile": {
+          "lib/net451/System.Data.SQLite.EF6.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.EF6.dll": {}
+        }
+      },
+      "System.Data.SQLite.Linq/1.0.98": {
+        "type": "package",
+        "compile": {
+          "lib/net451/System.Data.SQLite.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.Linq.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "EntityFramework/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
+        }
+      },
+      "GMap.NET.WindowsForms/1.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/GMap.NET.Core.dll": {},
+          "lib/net40/GMap.NET.WindowsForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/GMap.NET.Core.dll": {},
+          "lib/net40/GMap.NET.WindowsForms.dll": {}
+        }
+      },
+      "System.Data.SQLite/1.0.98": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.SQLite.Core": "1.0.98",
+          "System.Data.SQLite.EF6": "1.0.98",
+          "System.Data.SQLite.Linq": "1.0.98"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.98": {
+        "type": "package",
+        "compile": {
+          "lib/net451/System.Data.SQLite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net451/System.Data.SQLite.Core.targets": {}
+        }
+      },
+      "System.Data.SQLite.EF6/1.0.98": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.0.0"
+        },
+        "compile": {
+          "lib/net451/System.Data.SQLite.EF6.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.EF6.dll": {}
+        }
+      },
+      "System.Data.SQLite.Linq/1.0.98": {
+        "type": "package",
+        "compile": {
+          "lib/net451/System.Data.SQLite.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.Linq.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntityFramework/6.0.0": {
+      "sha512": "y6lX/VMghGBV6TvgQS4Q2WK6kAcOoyD+TQxObN9utd0JsMMdMxyqARxKbvgi7KEIbQ8osZ4ZvImaly7l3NDFDw==",
+      "type": "package",
+      "path": "entityframework/6.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/App.config.transform",
+        "Content/Web.config.transform",
+        "entityframework.6.0.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "GMap.NET.WindowsForms/1.7.5": {
+      "sha512": "VA2836bCMgIAhcvpQIJpmDJrQFm+nnH8AiqKzGqvMAoamO+UqAoNy6b+YPKNAqS1+2RRAcq12nrC582tUcb90A==",
+      "type": "package",
+      "path": "gmap.net.windowsforms/1.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gmap.net.windowsforms.1.7.5.nupkg.sha512",
+        "gmap.net.windowsforms.nuspec",
+        "lib/net20/GMap.NET.Core.dll",
+        "lib/net20/GMap.NET.WindowsForms.dll",
+        "lib/net40/GMap.NET.Core.dll",
+        "lib/net40/GMap.NET.WindowsForms.dll"
+      ]
+    },
+    "System.Data.SQLite/1.0.98": {
+      "sha512": "sQ/AvvPv9zlEdlBRLgydVLQKL1sutVvsXQ4xw/wbIRpc2gw18BcI5tt9SAvA0NT0NuLO+wqaD2DGpxGw/vrAnw==",
+      "type": "package",
+      "path": "system.data.sqlite/1.0.98",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "system.data.sqlite.1.0.98.nupkg.sha512",
+        "system.data.sqlite.nuspec"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.98": {
+      "sha512": "bbSJ1X640BrYduRUhBLVdjOVuKfs6fDvVdP6Ddq0cfve0D3gNuB6egymZ4npZA6JD6mCmFveC8uQrCRooqE6hg==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.98",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net20/System.Data.SQLite.Core.targets",
+        "build/net20/x64/SQLite.Interop.dll",
+        "build/net20/x86/SQLite.Interop.dll",
+        "build/net40/System.Data.SQLite.Core.targets",
+        "build/net40/x64/SQLite.Interop.dll",
+        "build/net40/x86/SQLite.Interop.dll",
+        "build/net45/System.Data.SQLite.Core.targets",
+        "build/net45/x64/SQLite.Interop.dll",
+        "build/net45/x86/SQLite.Interop.dll",
+        "build/net451/System.Data.SQLite.Core.targets",
+        "build/net451/x64/SQLite.Interop.dll",
+        "build/net451/x86/SQLite.Interop.dll",
+        "lib/net20/System.Data.SQLite.dll",
+        "lib/net20/System.Data.SQLite.xml",
+        "lib/net40/System.Data.SQLite.dll",
+        "lib/net40/System.Data.SQLite.xml",
+        "lib/net45/System.Data.SQLite.dll",
+        "lib/net45/System.Data.SQLite.xml",
+        "lib/net451/System.Data.SQLite.dll",
+        "lib/net451/System.Data.SQLite.xml",
+        "system.data.sqlite.core.1.0.98.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    },
+    "System.Data.SQLite.EF6/1.0.98": {
+      "sha512": "+MCaZyNxPTP23UDE0z0pt3tZuxphLCODAwYtmOCrXinaZMFsQSlbI4QuKxCjwf/DfwEYEy8z9PhmFW0I6b2jIg==",
+      "type": "package",
+      "path": "system.data.sqlite.ef6/1.0.98",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net40/app.config.install.xdt",
+        "content/net40/app.config.transform",
+        "content/net40/web.config.install.xdt",
+        "content/net40/web.config.transform",
+        "content/net45/app.config.install.xdt",
+        "content/net45/app.config.transform",
+        "content/net45/web.config.install.xdt",
+        "content/net45/web.config.transform",
+        "content/net451/app.config.install.xdt",
+        "content/net451/app.config.transform",
+        "content/net451/web.config.install.xdt",
+        "content/net451/web.config.transform",
+        "lib/net40/System.Data.SQLite.EF6.dll",
+        "lib/net45/System.Data.SQLite.EF6.dll",
+        "lib/net451/System.Data.SQLite.EF6.dll",
+        "system.data.sqlite.ef6.1.0.98.nupkg.sha512",
+        "system.data.sqlite.ef6.nuspec",
+        "tools/net40/install.ps1",
+        "tools/net45/install.ps1",
+        "tools/net451/install.ps1"
+      ]
+    },
+    "System.Data.SQLite.Linq/1.0.98": {
+      "sha512": "S26UgFOPtoicNR07Ch9gxIkzLPLF2Qx9zU1IUYp2l0swd9obp1xJB3ldQwDFybAZRVwcBdCFGqJdeku1SYhynQ==",
+      "type": "package",
+      "path": "system.data.sqlite.linq/1.0.98",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net20/app.config.transform",
+        "content/net20/web.config.transform",
+        "content/net40/app.config.transform",
+        "content/net40/web.config.transform",
+        "content/net45/app.config.transform",
+        "content/net45/web.config.transform",
+        "content/net451/app.config.transform",
+        "content/net451/web.config.transform",
+        "lib/net20/System.Data.SQLite.Linq.dll",
+        "lib/net40/System.Data.SQLite.Linq.dll",
+        "lib/net45/System.Data.SQLite.Linq.dll",
+        "lib/net451/System.Data.SQLite.Linq.dll",
+        "system.data.sqlite.linq.1.0.98.nupkg.sha512",
+        "system.data.sqlite.linq.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "GMap.NET.WindowsForms >= 1.7.5",
+      "System.Data.SQLite >= 1.0.98"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\POBADOR DO GRAFO\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
+      "projectName": "ProyectoGrafoFamiliar",
+      "projectPath": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\POBADOR DO GRAFO\\src\\ProyectoGrafoFamiliar\\ProyectoGrafoFamiliar.csproj",
+      "packagesPath": "C:\\Users\\Keylor RV\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\POBADOR DO GRAFO\\src\\ProyectoGrafoFamiliar\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Keylor RV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "GMap.NET.WindowsForms": {
+            "target": "Package",
+            "version": "[1.7.5, )"
+          },
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "[1.0.98, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "CAI7vi8e0wY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Keylor RV\\OneDrive\\Documentos\\POBADOR DO GRAFO\\tests\\ProyectoGrafoFamiliarTests\\ProyectoGrafoFamiliarTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\gmap.net.windowsforms\\1.7.5\\gmap.net.windowsforms.1.7.5.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\system.data.sqlite\\1.0.98\\system.data.sqlite.1.0.98.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\system.data.sqlite.core\\1.0.98\\system.data.sqlite.core.1.0.98.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.98\\system.data.sqlite.ef6.1.0.98.nupkg.sha512",
+    "C:\\Users\\Keylor RV\\.nuget\\packages\\system.data.sqlite.linq\\1.0.98\\system.data.sqlite.linq.1.0.98.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,127 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProyectoGrafoFamiliar/1.0.0": {
+        "dependencies": {
+          "GMap.NET.WindowsForms": "1.7.5",
+          "System.Data.SQLite": "1.0.98"
+        },
+        "runtime": {
+          "ProyectoGrafoFamiliar.dll": {}
+        }
+      },
+      "EntityFramework/6.0.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.20911.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.20911.0"
+          }
+        }
+      },
+      "GMap.NET.WindowsForms/1.7.5": {
+        "runtime": {
+          "lib/net40/GMap.NET.Core.dll": {
+            "assemblyVersion": "1.7.5.0",
+            "fileVersion": "1.7.5.0"
+          },
+          "lib/net40/GMap.NET.WindowsForms.dll": {
+            "assemblyVersion": "1.7.5.0",
+            "fileVersion": "1.7.5.0"
+          }
+        }
+      },
+      "System.Data.SQLite/1.0.98": {
+        "dependencies": {
+          "System.Data.SQLite.Core": "1.0.98",
+          "System.Data.SQLite.EF6": "1.0.98",
+          "System.Data.SQLite.Linq": "1.0.98"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.98": {
+        "runtime": {
+          "lib/net451/System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.98.0",
+            "fileVersion": "1.0.98.0"
+          }
+        }
+      },
+      "System.Data.SQLite.EF6/1.0.98": {
+        "dependencies": {
+          "EntityFramework": "6.0.0"
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.EF6.dll": {
+            "assemblyVersion": "1.0.98.0",
+            "fileVersion": "1.0.98.0"
+          }
+        }
+      },
+      "System.Data.SQLite.Linq/1.0.98": {
+        "runtime": {
+          "lib/net451/System.Data.SQLite.Linq.dll": {
+            "assemblyVersion": "1.0.98.0",
+            "fileVersion": "1.0.98.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProyectoGrafoFamiliar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y6lX/VMghGBV6TvgQS4Q2WK6kAcOoyD+TQxObN9utd0JsMMdMxyqARxKbvgi7KEIbQ8osZ4ZvImaly7l3NDFDw==",
+      "path": "entityframework/6.0.0",
+      "hashPath": "entityframework.6.0.0.nupkg.sha512"
+    },
+    "GMap.NET.WindowsForms/1.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VA2836bCMgIAhcvpQIJpmDJrQFm+nnH8AiqKzGqvMAoamO+UqAoNy6b+YPKNAqS1+2RRAcq12nrC582tUcb90A==",
+      "path": "gmap.net.windowsforms/1.7.5",
+      "hashPath": "gmap.net.windowsforms.1.7.5.nupkg.sha512"
+    },
+    "System.Data.SQLite/1.0.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQ/AvvPv9zlEdlBRLgydVLQKL1sutVvsXQ4xw/wbIRpc2gw18BcI5tt9SAvA0NT0NuLO+wqaD2DGpxGw/vrAnw==",
+      "path": "system.data.sqlite/1.0.98",
+      "hashPath": "system.data.sqlite.1.0.98.nupkg.sha512"
+    },
+    "System.Data.SQLite.Core/1.0.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bbSJ1X640BrYduRUhBLVdjOVuKfs6fDvVdP6Ddq0cfve0D3gNuB6egymZ4npZA6JD6mCmFveC8uQrCRooqE6hg==",
+      "path": "system.data.sqlite.core/1.0.98",
+      "hashPath": "system.data.sqlite.core.1.0.98.nupkg.sha512"
+    },
+    "System.Data.SQLite.EF6/1.0.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+MCaZyNxPTP23UDE0z0pt3tZuxphLCODAwYtmOCrXinaZMFsQSlbI4QuKxCjwf/DfwEYEy8z9PhmFW0I6b2jIg==",
+      "path": "system.data.sqlite.ef6/1.0.98",
+      "hashPath": "system.data.sqlite.ef6.1.0.98.nupkg.sha512"
+    },
+    "System.Data.SQLite.Linq/1.0.98": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S26UgFOPtoicNR07Ch9gxIkzLPLF2Qx9zU1IUYp2l0swd9obp1xJB3ldQwDFybAZRVwcBdCFGqJdeku1SYhynQ==",
+      "path": "system.data.sqlite.linq/1.0.98",
+      "hashPath": "system.data.sqlite.linq.1.0.98.nupkg.sha512"
+    }
+  }
+}
